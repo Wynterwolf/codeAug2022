@@ -61,6 +61,6 @@ function getResult() {
     if (computerChoice === 'scissors' && userChoice === 'paper'){
         result = "Scissors Win!"
     }
-    getResult.innerHTML = result
-    console.log(result)
+    resultDisplay.innerHTML = result
+    //console.log(result)
     }
