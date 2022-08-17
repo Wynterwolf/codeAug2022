@@ -59,8 +59,8 @@ function getResult() {
         result = "Rock Wins!"
     }
     if (computerChoice === 'scissors' && userChoice === 'paper'){
-        result - "Scissors Win!"
+        result = "Scissors Win!"
     }
     getResult.innerHTML = result
-    //console.log(result)
+    console.log(result)
     }
